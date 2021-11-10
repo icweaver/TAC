@@ -13,52 +13,65 @@ gantt
     dateFormat  YYYY-MM-DD
     todayMarker stroke-width:5px, stroke:green, opacity:0.25
 
-    section Program
-    Started grad school                     :done,   2016-09-01, 10d
-    Shu exam                                :done,   2017-01-01, 10d
-    Research exam                           :done,   2018-12-01, 10d
-    Defend                                  :active, 2022-05-01, 10d
-    Graduate                                :active, 2022-05-26, 10d
+    section Academics
+    Started grad school                     :done,   2016-09-01, 8d
+    Shu exam                                :done,   2017-01-01, 8d
+    Research exam                           :done,   2018-12-01, 8d
+    Defend                                  :active, 2022-05-01, 8d
+    Graduate                                :active, 2022-05-26, 8d
+    AY 189,193,200,202A,231,301 | XMIT 12.622 | CS 207 | AM 207 :done, 2016-09-02, 2020-12-19
+    TF ASTR 110                             :done,   2017-09-02, 2017-12-19
+    TF ASTR S35                             :done,   2018-06-21, 2018-08-06
+    TF ASTR 16                              :done,   2019-01-25, 2019-05-15
 
     %% Received dates
     section Papers
-    Paper 1                                 :done,   2019-06-12, 10d %% W43
-    Paper 2                                 :done,   2021-02-12, 10d %% H23
-    Paper 3                                 :active, 2021-12-31, 10d %% W50
-    Co-author paper                         :done,   2018-07-16, 10d %% W4
-    Co-author paper                         :done,   2018-10-01, 10d %% W19
-    Co-author paper                         :done,   2019-03-29, 10d %% W39
-    Co-author paper                         :done,   2020-06-08, 10d %% W31
-    Co-author paper                         :done,   2021-03-15, 10d %% W103
+    First author paper                      :done,   2019-06-12, 8d %% W43
+    First author paper                      :done,   2021-02-12, 8d %% H23
+    First author paper                      :active, 2021-12-31, 8d %% W50
+    Co-author paper                         :done,   2018-07-16, 8d %% W4
+    Co-author paper                         :done,   2018-10-01, 8d %% W19
+    Co-author paper                         :done,   2019-03-29, 8d %% W39
+    Co-author paper                         :done,   2020-06-08, 8d %% W31
+    Co-author paper                         :done,   2021-03-15, 8d %% W103
 
     section Talks
-    @ Keele                                 :done,   2017-07-20, 10d
-    @ BAESM 4                               :done,   2018-09-17, 10d
-    @ Yale (Invited)                        :done,   2018-12-15, 10d
+    @ Keele                                 :done,   2017-07-20, 8d
+    @ BAESM 4                               :done,   2018-09-17, 8d
+    @ Yale (Invited)                        :done,   2018-12-15, 8d
+    @ JPL (Invited)                         :done,   2020-11-30, 8d
+    @ EPL                                   :done,   2021-03-09, 8d
+    @ UChicago (Invited)                    :done,   2021-04-26, 8d
 
     section Conferences
-    Transiting Exoplanet Conference @ Keele :done,   2017-07-17, 10d
-    BAESM 1                                 :done,   2017-12-19, 10d
-    BAESM 4                                 :done,   2018-09-17, 10d
+    Transiting Exoplanet Conference         :done,   2017-07-17, 8d
+    BAESM 1                                 :done,   2017-12-19, 8d
+    BAESM 4                                 :done,   2018-09-17, 8d
+    Cloud Academy                           :done,   2018-09-23, 8d
+    Extreme Solar Systems IV                :done,   2019-08-10, 8d
+    Exo III                                 :done,   2020-07-27, 8d
 
     section Posters
-    @ AAS 231                               :done,   2017-01-01, 10d
-    @ Exoplanets II                         :done,   2018-07-18, 10d
-    @ ESS IV                                :done,   2019-08-20, 10d
+    @ AAS 231                               :done,   2017-01-01, 8d
+    @ Exoplanets II                         :done,   2018-07-18, 8d
+    @ ESS IV                                :done,   2019-08-20, 8d
+    @ Exo III                               :done,   2020-07-27, 8d
+    @ Extreme Solar Systems IV              :done,   2019-08-10, 8d
 
     section Observing runs
-    Magellan/IMACS                          :done,   2017-04-20, 10d
-    Magellan/IMACS                          :done,   2017-05-28, 10d
-    Magellan/IMACS                          :done,   2017-12-24, 10d
-    Magellan/IMACS                          :done,   2018-05-14, 10d
-    Magellan/IMACS                          :done,   2018-08-23, 10d
+    Magellan/IMACS                          :done,   2017-04-20, 8d
+    Magellan/IMACS                          :done,   2017-05-28, 8d
+    Magellan/IMACS                          :done,   2017-12-24, 8d
+    Magellan/IMACS                          :done,   2018-05-14, 8d
+    Magellan/IMACS                          :done,   2018-08-23, 8d
 
     section Proposals
-    MMT/Binospec - 2 nights                 :done,   2018-05-06, 10d
-    MMT/Binospec - 3 nights                 :done,   2018-10-15, 10d
-    MMT/Binospec - 3 nights                 :done,   2019-01-25, 10d
-    Magellan/IMACS - 4 nights               :done,   2020-01-21, 10d
-    Magellan/IMACS - 1 night                :done,   2020-07-22, 10d
+    MMT/Binospec - 2 nights                 :done,   2018-05-06, 8d
+    MMT/Binospec - 3 nights                 :done,   2018-10-15, 8d
+    MMT/Binospec - 3 nights                 :done,   2019-01-25, 8d
+    Magellan/IMACS - 4 nights               :done,   2020-01-21, 8d
+    Magellan/IMACS - 1 night                :done,   2020-07-22, 8d
+    Magellan/IMACS - 5 nights               :done,   2021-03-21, 8d
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
