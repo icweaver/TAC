@@ -44,6 +44,7 @@ gantt
     section Posters
     @ AAS 231                               :done,   2017-01-01, 10d
     @ Exoplanets II                         :done,   2018-07-18, 10d
+    @ ESS IV                                :done,   2019-08-20, 10d
 
     section Observing runs
     Magellan/IMACS                          :done,   2017-04-20, 10d
@@ -55,6 +56,9 @@ gantt
     section Proposals
     MMT/Binospec - 2 nights                 :done,   2018-05-06, 10d
     MMT/Binospec - 3 nights                 :done,   2018-10-15, 10d
+    MMT/Binospec - 3 nights                 :done,   2019-01-25, 10d
+    Magellan/IMACS - 4 nights               :done,   2020-01-21, 10d
+    Magellan/IMACS - 1 night                :done,   2020-07-22, 10d
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
