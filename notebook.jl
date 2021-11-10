@@ -34,6 +34,7 @@ gantt
     section Talks
     @ Keele                                 :done,   2017-07-20, 10d
     @ BAESM 4                               :done,   2018-09-17, 10d
+    @ Yale (Invited)                        :done,   2018-12-15, 10d
 
     section Conferences
     Transiting Exoplanet Conference @ Keele :done,   2017-07-17, 10d
@@ -42,11 +43,18 @@ gantt
 
     section Posters
     @ AAS 231                               :done,   2017-01-01, 10d
+    @ Exoplanets II                         :done,   2018-07-18, 10d
 
     section Observing runs
     Magellan/IMACS                          :done,   2017-04-20, 10d
     Magellan/IMACS                          :done,   2017-05-28, 10d
     Magellan/IMACS                          :done,   2017-12-24, 10d
+    Magellan/IMACS                          :done,   2018-05-14, 10d
+    Magellan/IMACS                          :done,   2018-08-23, 10d
+
+    section Proposals
+    MMT/Binospec - 2 nights                 :done,   2018-05-06, 10d
+    MMT/Binospec - 3 nights                 :done,   2018-10-15, 10d
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
