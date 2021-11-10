@@ -14,22 +14,39 @@ gantt
     todayMarker stroke-width:5px, stroke:green, opacity:0.25
 
     section Program
-    Started grad school :2016-09-01, 10d
-    Shu exam            :2017-01-01, 10d
-    Research exam       :2018-12-01, 10d
-    Defend              :2022-05-01, 10d
-    Graduate            :2022-05-26, 10d
+    Started grad school                     :done,   2016-09-01, 10d
+    Shu exam                                :done,   2017-01-01, 10d
+    Research exam                           :done,   2018-12-01, 10d
+    Defend                                  :active, 2022-05-01, 10d
+    Graduate                                :active, 2022-05-26, 10d
 
+    %% Received dates
     section Papers
-    Submitted paper 1   :2019-06-12, 10d %% W43
-    Submitted paper 2   :2021-02-12, 10d %% H23
-    Submit paper 3      :2021-12-31, 10d %% W50
-    Co-author paper     :2021-03-15, 10d %% W103
-    Co-author paper     :2020-06-08, 10d %% W31
-    Co-author paper     :2019-03-29, 10d %% W39
-    Co-author paper     :2018-07-16, 10d %% W4
-    Co-author paper     :2018-10-01, 10d %% W19
+    Paper 1                                 :done,   2019-06-12, 10d %% W43
+    Paper 2                                 :done,   2021-02-12, 10d %% H23
+    Paper 3                                 :active, 2021-12-31, 10d %% W50
+    Co-author paper                         :done,   2018-07-16, 10d %% W4
+    Co-author paper                         :done,   2018-10-01, 10d %% W19
+    Co-author paper                         :done,   2019-03-29, 10d %% W39
+    Co-author paper                         :done,   2020-06-08, 10d %% W31
+    Co-author paper                         :done,   2021-03-15, 10d %% W103
 
+    section Talks
+    @ Keele                                 :done,   2017-07-20, 10d
+    @ BAESM 4                               :done,   2018-09-17, 10d
+
+    section Conferences
+    Transiting Exoplanet Conference @ Keele :done,   2017-07-17, 10d
+    BAESM 1                                 :done,   2017-12-19, 10d
+    BAESM 4                                 :done,   2018-09-17, 10d
+
+    section Posters
+    @ AAS 231                               :done,   2017-01-01, 10d
+
+    section Observing runs
+    Magellan/IMACS                          :done,   2017-04-20, 10d
+    Magellan/IMACS                          :done,   2017-05-28, 10d
+    Magellan/IMACS                          :done,   2017-12-24, 10d
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
