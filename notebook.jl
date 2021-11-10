@@ -11,19 +11,25 @@ using Kroki
 mermaid"""
 gantt
     dateFormat  YYYY-MM-DD
+    todayMarker stroke-width:5px, stroke:green, opacity:0.25
 
     section Program
-    Started grad school :2016-09-01, 1d
-    Shu exam            :2017-01-01, 1d
-    Research exam       :2018-12-01, 1d
-    Submit Paper 1      :2021-03-01, 1d
+    Started grad school :2016-09-01, 10d
+    Shu exam            :2017-01-01, 10d
+    Research exam       :2018-12-01, 10d
+    Defend              :2022-05-01, 10d
+    Graduate            :2022-05-26, 10d
 
     section Papers
-    Submitted paper 1   :2019-06-12, 1d %% W43
-    Submitted paper 2   :2021-02-12, 1d %% H23
-    Submit paper 3      :2021-12-31, 1d %% W50
+    Submitted paper 1   :2019-06-12, 10d %% W43
+    Submitted paper 2   :2021-02-12, 10d %% H23
+    Submit paper 3      :2021-12-31, 10d %% W50
+    Co-author paper     :2021-03-15, 10d %% W103
+    Co-author paper     :2020-06-08, 10d %% W31
+    Co-author paper     :2019-03-29, 10d %% W39
+    Co-author paper     :2018-07-16, 10d %% W4
+    Co-author paper     :2018-10-01, 10d %% W19
 
-	todayMarker stroke-width:5px, stroke:green, opacity:0.25
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
