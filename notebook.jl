@@ -81,13 +81,15 @@ gantt
 p2 = mermaid"""
 gantt
     dateFormat  MM-DD
+	axisFormat  %d-%b
     todayMarker stroke-width:5px, stroke:green, opacity:0.25
 
-	section Graduation deadlines
-	Diploma      :active, 03-09, 04-01
-	Dept. recs   :active, 04-07, 05-19
-	Dissertation :active, 05-12, 1d
-	Conferral    :active, 05-26, 1d
+	section Deadlines
+	Application       :active, 03-09, 04-01
+	Dept. recs        :active, 04-07, 05-19
+	Dissertaton draft :active, 04-28, 1d
+	Dissertation      :active, 05-12, 1d
+	Conferral         :active, 05-26, 1d
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
